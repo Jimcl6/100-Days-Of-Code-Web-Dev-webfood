@@ -32,12 +32,12 @@ a {
 }
 
 #main-header li {
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 #main-header nav a {
     color: rgb(185, 131, 31);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #main-header nav a:hover {
@@ -47,12 +47,12 @@ a {
 main h1 {
     text-align: center;
     color: rgb(228, 163, 44);
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 #latest-products {
     width: 80%;
-    margin: 50px auto;
+    margin: 2rem auto;
 }
 
 #latest-products ul {
@@ -61,6 +61,7 @@ main h1 {
     gap: 16px;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .food-item {

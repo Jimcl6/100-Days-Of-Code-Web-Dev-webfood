@@ -97,6 +97,7 @@ main h1 {
 }
 
 @media (max-width: 48rem) {
+
     #main-header ul {
         display: none;
     }
@@ -108,5 +109,4 @@ main h1 {
     #latest-products ul {
         grid-template-columns: 100%;
     }
-    
 } 

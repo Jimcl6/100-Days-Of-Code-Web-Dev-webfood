@@ -58,7 +58,7 @@ main h1 {
 #latest-products ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    gap: 1rem;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -94,4 +94,19 @@ main h1 {
 .btn:hover {
     transition-duration: 250ms;
     background-color: rgb(221, 134, 34);
+}
+
+@media (max-width: 48rem) {
+    #main-header ul {
+        display: none;
+    }
+    
+    main h1 {
+        font-size: 1.5rem;
+    }
+
+    #latest-products ul {
+        grid-template-columns: 100%;
+    }
+    
 } 

@@ -21,6 +21,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    display: none;
 }
 
 .menu-btn span {
@@ -72,6 +73,15 @@ a {
     display: block;
 }
 
+#side-drawer header {
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #1d1a18;
+    padding: 0 5%;
+}
+
 #side-drawer ul {
     display: flex;
     margin: 0;
@@ -119,6 +129,10 @@ main h1 {
     list-style: none;
 }
 
+.food-item h2 {
+    margin: 0 0 1rem 0;
+}
+
 .food-item img {
     object-position: center;
     object-fit: cover;
@@ -145,6 +159,10 @@ main h1 {
 }
 
 @media (max-width: 48rem) {
+
+    .menu-btn {
+        display: flex;
+    }
 
     #main-header ul {
         display: none;
